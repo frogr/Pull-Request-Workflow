@@ -12,6 +12,7 @@ https://github.com/LambdaSchool/Bootstrap-Project-I/pull/109
 
 
 On the actual GitHub website:
+
 ![image](https://i.imgur.com/Di5Tgfu.png)
 
 In this case, the ID is 109. We'll need that for the next step.
