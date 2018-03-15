@@ -15,7 +15,7 @@ On the actual GitHub website:
 
 ![image](https://i.imgur.com/Di5Tgfu.png)
 
-In this case, the ID is 109. We'll need that for the next step.
+In this case, the ID is **109**. We'll need that for the next step.
 
 Next, CD into the directory that you'd like to clone the student's PR into and type: `git fetch origin pull/109/head:julian`
 
@@ -39,3 +39,9 @@ This will fetch all the branches available (both local AND remote)
 After you're done running each test, you're free to delete the branch and get it off your local machine. Do so by typing: `git branch -D julian`
 
 Again, julian is just the example name from above. Enter the name of your branch in its place. Also, note that -D is an alias for `--delete --force` flags, so it will completely delete that branch from your machine irrespective of its merged status.
+
+## Troubleshooting
+
+`fatal: Couldn't find remote ref pull/{ID}/head`
+
+Make sure you're working from the cloned base repo of the assignment and **NOT** from a personal fork of the repo
