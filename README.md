@@ -24,22 +24,20 @@ In this case, the ID is **109**. We'll need that for the next step.
 
 * 109 is the ID of the Pull Request. That'll change in your case.
 
-* head:julian tells git to make a new branch called `julian` to store his Pull Request. You can use any name instead of `julian`.
+* `head:julian` tells git to make a new branch called `julian` to store his Pull Request. You can use any name instead of `julian`.
 
 
-3. run `git checkout julian` and check out the students code. Everything should automagically switch inside of your editor and you'll immediately be able to see the students code and be able to run any sort of tests that you need to complete. For example, if I already had the index.html open before I checked out Julian's branch, I could just refresh the page in my browser and it will automatically update to Julian's project.
+3. `git checkout julian` to move to the new branch and check out the students code. Everything should automagically switch inside of your editor and you'll immediately be able to see the students code and be able to run any sort of tests that you need to complete. For example, if I already had the index.html open before I checked out Julian's branch, I could just refresh the page in my browser and it will automatically update to Julian's project.
 
 ## Lost? Check your local branches
 
-If you lose track of what branches you already have on your machine for each repo, you can type: `git branch -a`
+`git branch -a`: If you lose track of what branches you already have on your machine for each repo, this will fetch all of the available branches. (both local AND remote)
 
-This will fetch all the branches available (both local AND remote)
+## Running out of space?
 
-## Running out of space? Delete the branches when you're done
+`git branch -D julian`: After you're done running each test, you're free to delete the branch.
 
-After you're done running each test, you're free to delete the branch. Do so by typing: `git branch -D julian`
-
-Again, julian is just the example name from above. Enter the name of your branch in its place. Also, note that -D is an alias for `--delete --force` flags, so it will completely delete that branch from your machine irrespective of its merged status.
+Again, julian is just the example name from above. Enter the name of your branch in its place. Also, note that -D is an alias for `--delete --force` flags, so it will completely delete that branch from your machine irrespective of its merged status (and it WONT prompt you to check if you're sure, so make sure you're done with the branch before you do this!)
 
 ## Troubleshooting
 
