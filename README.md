@@ -4,6 +4,8 @@ As a Project Manager, you'll complete Pull Request Reviews every single day. Mak
 
 ## Grabbing the Pull Request and viewing it locally
 
+For this to work, you have to be using a clone of the base assignment repo from Lambda School, NOT a personal fork of it. This gives you access to the pull requests on the assignment and it prevents you from having to clone a million repositories and spam your GitHub profile.
+
 1. Find the ID of the pull request. It's visible in the URL and on the actual GitHub website. In this short tutorial, we'll use one of my student's projects as an example.
 
 	  You can find the ID using either of the two methods below:
